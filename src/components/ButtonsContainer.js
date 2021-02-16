@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { buttons } from "../css/ButtonsContainer.module.css"
 
@@ -31,3 +32,14 @@ return (
 }
 
 export default ButtonsContainer;
+=======
+function ButtonContainer () {
+return (
+    <div className={buttons}>
+        <p>Here will map buttons</p>
+    </div>
+)
+}
+
+export default ButtonContainer;
+>>>>>>> dev
